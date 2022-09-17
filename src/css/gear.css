@@ -1,0 +1,51 @@
+.gear {
+     /*background: url("../images/gearBg.png") center/cover no-repeat;*/
+    padding: 218px 0 228px;
+}
+
+
+
+.gear__title {
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.gear__desc {
+    margin-top: 9px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 876px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 676px) {
+
+}
+
+@media (max-width: 1px) {
+
+}

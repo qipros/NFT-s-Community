@@ -1,0 +1,57 @@
+.promise {
+    text-align: center;
+    padding: 99px 0 159px;
+    position: relative;
+}
+
+.promise::before {
+    content: url("../images/promiseTop.svg");
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.promise::after {
+    content: url("../images/promiseBot.svg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.promise .desc {
+    margin: 7px 0 71px;
+}
+
+.promise__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px 102px;
+}
+
+.promise__card {
+    width: calc(33.33333% - 68px);
+}
+
+.promise__circle {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #575445;
+    border-radius: 50%;
+}
+
+.promise__card-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+    margin: 10px 0 9px;
+}
+
+.promise__card-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+}
